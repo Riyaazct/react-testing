@@ -1,3 +1,1 @@
-export const Greet = () => {
-  return <div>Hello</div>;
-};
+export const Greet = () => {};

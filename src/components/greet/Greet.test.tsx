@@ -12,6 +12,12 @@ test("greet renders correctly", () => {
   expect(textElement).toBeInTheDocument();
 });
 
+test("greet renders with a name", () => {
+  render(<Greet name="Riyaaz" />);
+  const textElement = screen.getByText("Hello Riyaaz");
+  expect(textElement).toBeInTheDocument();
+});
+
 /**
  * FIRST WRITTEN TEST
  * VIDEO #8 IN SERIES
