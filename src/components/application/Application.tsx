@@ -18,8 +18,8 @@ export const Application = () => {
       </div>
       <div>
         <label>
-          <input type="checkbox" id="terms" /> I agree to the terms
-          and conditions
+          <input type="checkbox" id="terms" />I agree to the terms and
+          conditions
         </label>
       </div>
       <button disabled>Submit</button>

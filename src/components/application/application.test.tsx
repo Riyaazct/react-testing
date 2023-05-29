@@ -9,5 +9,11 @@ describe("Application", () => {
 
     const jobLocationElement = screen.getByRole("combobox");
     expect(jobLocationElement).toBeInTheDocument();
+
+    const termsAndConditionsElement = screen.getByRole("checkbox");
+    expect(termsAndConditionsElement).toBeInTheDocument();
+
+    const buttonElement = screen.getByRole("button");
+    expect(buttonElement).toBeInTheDocument();
   });
 });
